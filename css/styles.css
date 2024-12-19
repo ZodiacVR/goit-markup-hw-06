@@ -14,6 +14,11 @@
   --GREEN: #31d0aa;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--WHITE);
@@ -440,7 +445,7 @@ address {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url('../images/Dark-bg-mobile.jpg');
+    url('../images/hero_bg/people_bg_mob@1x-min.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -484,7 +489,7 @@ address {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url('../images/Dark-bg-tablet-min.jpg');
+      url('../images/hero_bg/people_bg_tablet@1x-min.jpg');
   }
 
   .order-title {
@@ -503,7 +508,7 @@ address {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url('../images/Dark-bg-mobile@2x.jpg');
+      url('../images/hero_bg/people_bg_mob@2x-min.jpg');
   }
 }
 @media screen and (min-width: 768px) {
@@ -515,7 +520,7 @@ address {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url('../images/Dark-bg-tablet-min@2x.jpg');
+        url('../images/hero_bg/people_bg_tablet@2x-min.jpg');
     }
   }
 }
@@ -529,7 +534,7 @@ address {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url('../images/people_office_desctop.jpg');
+      url('../images/hero_bg/people_bg_desc@1x-min.jpg');
   }
   /* 2x screens, retina, 12880x1200 image */
   @media (min-resolution: 192dpi) {
@@ -539,7 +544,7 @@ address {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url('../images/people_office_desctop@2x.jpg');
+        url('../images/hero_bg/people_bg_desc@2x-min.jpg');
     }
   }
 
